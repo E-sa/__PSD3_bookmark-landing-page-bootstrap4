@@ -1,0 +1,270 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Rubik-Regular.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+
+body{
+    overflow-x: hidden;
+
+}
+
+/* NAVBAR STYLE -------------------------------------------------------------------------*/
+.modal-body ul li{
+    margin:20px;
+    list-style: none;
+    border-top: 1px solid white ;
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-body ul li:last-child{
+    border: 2px solid  white;
+    border-radius: 6px;
+
+}
+
+
+.modal-body ul{
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3f51b56b;
+    color: white;
+}
+
+
+/* A SIMPLE BOOKMARK MANAGAER TITLE -------------------------------------------------- */
+#illustration-hero{
+    z-index: 3; width: inherit;position: relative;
+}
+
+#blue-canvas{
+    position: relative;
+    bottom: 336px;
+    right: -63px;
+    height: 62%;
+    width: 88%;
+    background-color: hsl(231, 69%, 60%);
+    border-bottom-left-radius: 89px;
+}
+
+#bookmarkManager-text h5{
+    font-size: -webkit-xxx-large;
+    padding: 30px;
+
+}
+
+#bookmarkManager-text p{
+    font-size: 18px;
+    color: grey;
+    padding: 0 30px;
+
+}
+
+#bookmarkManager-text div{
+    padding: 30px;
+}
+
+#GIOFirefox{
+    background-color: rgb(247, 247, 247);
+    color: grey;
+    margin-left: 20px;
+    padding: 10px 20px;
+
+}
+
+#GIOChrome{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+/* Features ---------------------------------------------------------------------------------------*/
+
+
+ #features{
+     margin-top: 50px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#features p{
+    color: grey;
+    font-size: 18px;
+}
+
+
+.nav-tabs{
+    justify-content: center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e600 #dee2e600 hsl(0, 94%, 66%);
+}
+
+
+
+.nav-tabs .nav-link {
+    border: 3px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    padding: 8px 69px;
+
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item a:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+
+/* CARDS ------------------------------------------------------------------------------*/
+.card-img-top{
+    width: fit-content !important;
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#card-container{
+    justify-content: center !important;
+}
+
+.card{
+    border: none;
+    margin-right: 30px;
+}
+
+#card-1{
+    position: relative;
+    top: 10px;
+}
+
+#card-2{
+    position: relative;
+    top: 40px;
+}
+
+#card-3{
+    position: relative;
+    top: 70px;
+}
+
+.card-text{
+    color: gray;
+    font-size: 18px;
+}
+
+#card-btn{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+
+.card-body{
+    padding: 20px 0 0 0 ;
+    text-align: center;
+}
+
+
+
+/* FAQ --------------------------------------------------------------------------------------------------*/
+
+#FAQ-collapse{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: white;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 25px 0 ;
+}
+
+.card-header a{
+    color: black;
+}
+.card-link:hover{
+    color: hsl(0, 94%, 66%);
+
+}
+
+.card-header img{
+    float: right;
+    padding-right: 30px;
+}
+
+.collapse.show img{
+    background-color: burlywood;
+
+}
+
+.card-body{
+    padding-bottom: 45px;
+}
+
+.card-header a[aria-expanded="true"] + img {
+    transform: rotate(180deg);
+    filter: grayscale(100%);
+    padding-left: 30px;
+
+}
+#accordion-more-info{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+
+
+/* stay up to date with what we are doing ------------------------------------------*/
+
+#enter-email{
+    float: none;
+    margin: 0 auto;
+    margin-top: 170px;
+    text-align: center;
+    color: white;
+}
+
+
+#email{
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+    margin-right: 27px;
+    padding: 10px 20px;
+
+}
+
+
+
+#email-input-container div{
+    display: flex;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#btn-submit{
+    background-color:hsl(0, 94%, 66%);
+    padding: 10px 20px;
+    color: white;
+}
+
+/* footer-------------------------------------------------------------- */
+.footer{
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+}

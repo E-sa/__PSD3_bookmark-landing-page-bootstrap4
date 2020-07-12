@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+  <body>
+   
+      <!-- NAVBAR ------------------------------------------------------------------------------------->
+      <div class="navbar navbar-expand-md d-flex p-5">
+        <!-- NAVBAR LOGO -->
+        <a class="navbar-brand p-2 mr-auto "  href="#" ><img src="./images/logo-bookmark.svg" alt=""></a>
+        <!-- NAVBAR ITEMS -->
+        <ul class="navbar-nav p-2">
+          <li class="nav-item d-none d-md-block mr-5">
+            <a class="nav-link hidden-md-down">Features</a>
+          </li>
+          <li class="nav-item d-none d-md-block mr-5">
+            <a class="nav-link">pricing</a>
+          </li>
+          <li class="nav-item d-none d-md-block mr-5">
+            <a class="nav-link">contact</a>
+          </li>
+        </ul>
+          <!-- NAVBAR LOGIN BUTTON -->
+          <button
+           type="button"
+            class="btn btn-primary mr-5 d-none d-md-block shadow"
+            style="
+            width: 100px;
+            background-color: hsl(0, 94%, 66%);
+            border: none;">
+            login
+          </button>
+          
+          <button
+           class="navbar-toggler"
+           type="button"
+           data-toggle="modal"
+           data-target="#myModal"
+           >
+            <span class="navbar-toggler-icon"><img src="./images/icon-hamburger.svg" alt=""></span>
+          </button>
+          <!-- MODAL -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- MODAL HEADER -->
+                <div >
+                  <button type="button" class="close" 
+                   data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- MODAL BODY -->
+                <div class="modal-body">
+                 <ul>
+                   <li>Features</li>
+                   <li>pricing</li>
+                   <li>contact</li>
+                   <li>login</li>
+                 </ul>
+                 <div class="text-center">
+                  <img src="./images/icon-facebook.svg" style="margin-right: 10px;" alt="">
+                  <img src="./images/icon-twitter.svg" alt="">
+
+                 </div>
+
+                </div>
+                
+              
+
+                
+              </div>
+            </div>
+          </div>
+
+          
+      </div>
+
+
+      <!-- A SIMPLE BOOKMARK MANAGAER TITLE ---------------------------------------------------------->
+        <div class="row justify-content-center" style="direction: rtl;">
+
+          <!-- RIGHT SIDE -->
+          <div class="col-md-6">
+              <img src="./images/illustration-hero.svg" id="illustration-hero" alt="">
+              <!-- <div id="blue-canvas"></div> -->
+            </div>
+
+            <!-- LEFT SIDE -->
+          <div class="col-md-5  d-flex flex-column mb-3 align-self-center" id="bookmarkManager-text"  >
+
+            <h5>A Simple Bookmark Manager</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque atque eum quae suscipit quas rem eaque iste soluta, expedita harum qui odio sint quam magnam ad perferendis fugiat, velit illo!</p>
+            <div class="d-flex justify-content-start">
+              <button class="btn shadow" id="GIOFirefox">Get it on Firefox</button>
+              <button class="btn shadow" id="GIOChrome">Get it on Chrome</button>
+            </div>
+
+          </div>
+        </div>
+        
+
+      <!-- Features  --------------------------------------------------------------------------->
+       <div class="col-md-5 p-5 col-centered" id="features">
+          <h2 class="pb-3">Features</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quisquam earum praesentium enim voluptatem recusandae molestiae dolorum quas neque odio, aliquam eos voluptatibus aperiam voluptate! Nobis rem eum eius omnis!</p>
+        </div> 
+
+
+      <!-- NAV TABS ------------------------------------------------------------------------>
+        <div class="container centered">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#simpleBookMarking">simpleBookMarking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#speedySearching">Speady Searching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#easySharing">Easy Sharing</a>
+            </li>
+          </ul>
+        
+          <!-- Tab panes -->
+          <div class="tab-content">
+
+            <!-- simpleBookMarking -->
+            <div id="simpleBookMarking" class="container tab-pane active"><br>
+              <div class="row justify-content-center mt-5 mb-5" >
+                <!-- left SIDE -->
+                <div class="col-md-6">
+                    <img src="./images/illustration-features-tab-1.svg" id="illustration-hero" alt="">
+                </div>
+                <!-- right SIDE -->
+                <div class="col-md-5  d-flex flex-column  align-self-center" id="bookmarkManager-text" style="   float: none;margin: 0 auto;" >      
+                  <h3 class="mb-4 mt-5">BookMark in one click</h3>
+                  <p class="p-0 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque atque eum quae suscipit quas rem eaque iste soluta, expedita harum qui odio sint quam magnam ad perferendis fugiat, velit illo!</p>
+                  <div class="d-flex justify-content-start pl-0">
+                    <button class="btn shadow " id="GIOChrome">More Info</button>
+                  </div>     
+                </div>
+              </div>
+            </div>
+
+            <!-- SpeadySearching -->
+            <div id="speedySearching" class="container tab-pane fade"><br>
+              <div class="row justify-content-center mt-5 mb-5" >
+                <!-- left SIDE -->
+                <div class="col-md-6">
+                    <img src="./images/illustration-features-tab-2.svg" id="illustration-hero" alt="">
+                </div>
+                <!-- right SIDE -->
+                <div class="col-md-5  d-flex flex-column  align-self-center" id="bookmarkManager-text" style="   float: none;margin: 0 auto;" >      
+                  <h3 class="mb-4 mt-5">Intelligent Search</h3>
+                  <p class="p-0 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque atque eum quae suscipit quas rem eaque iste soluta, expedita harum qui odio sint quam magnam ad perferendis fugiat, velit illo!</p>
+                  <div class="d-flex justify-content-start pl-0">
+                    <button class="btn shadow " id="GIOChrome">More Info</button>
+                  </div>     
+                </div>
+              </div>
+            </div>
+
+            <!-- easySharing -->
+            <div id="easySharing" class="container tab-pane fade"><br>
+              <div class="row justify-content-center mt-5 mb-5" >
+                <!-- left SIDE -->
+                <div class="col-md-6">
+                    <img src="./images/illustration-features-tab-3.svg" id="illustration-hero" alt="">
+                </div>
+                <!-- right SIDE -->
+                <div class="col-md-5  d-flex flex-column  align-self-center" id="bookmarkManager-text" style="   float: none;margin: 0 auto;" >      
+                  <h3 class="mb-4 mt-5">Share your bookmarks</h3>
+                  <p class="p-0 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque atque eum quae suscipit quas rem eaque iste soluta, expedita harum qui odio sint quam magnam ad perferendis fugiat, velit illo!</p>
+                  <div class="d-flex justify-content-start pl-0">
+                    <button class="btn shadow " id="GIOChrome">More Info</button>
+                  </div>     
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- DOWNLOAD THE EXTENTION -->
+        <div class="col-md-5 p-5 col-centered" id="features">
+          <h2 class="pb-3">Download the extension</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque fugiat veritatis voluptate repudiandae beatae itaque laborum debitis unde possimus!</p>
+        </div> 
+
+        <!-- ADD AND INSTALL -->
+        <div class="row" id="card-container">
+
+          <div class="card col-md-2 shadow p-4 mb-4" id="card-1" style="width:400px">
+            <img class="card-img-top" src="./images/logo-chrome.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Add to Chrome</h4>
+              <p class="card-text">Minimum Version 62</p>
+              <a href="#" class="btn" id="card-btn">Add & Install Extention</a>
+            </div>
+          </div>
+          <div class="card col-md-2 shadow p-4 mb-4 mt-3" id="card-2" style="width:400px">
+            <img class="card-img-top" src="./images/logo-firefox.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Add to Firefox</h4>
+              <p class="card-text">Minimum Version 55</p>
+              <a href="#" class="btn" id="card-btn">Add & Install Extention</a>
+            </div>
+          </div>
+          <div class="card col-md-2 shadow p-4 mb-4 mt-5" id="card-3" style="width:400px">
+            <img class="card-img-top" src="./images/logo-opera.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Add to Opera</h4>
+              <p class="card-text">Minimum Version 46</p>
+              <a href="#" class="btn" id="card-btn">Add & Install Extention</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FAQ -->
+        <div class="col-md-5 mt-5 p-5 col-centered" id="features">
+          <h2 class="pb-3 mt-5 pt-5">Frequently Asked Questions</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cupiditate veniam magni molestias. Ipsum omnis possimus earum eligendi voluptas culpa?</p>
+        </div> 
+
+        <!-- FAQ collapse -->
+        
+        <div class="container col-md-5" id="FAQ-collapse">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                  What is Bookmark?
+                </a>
+                <img src="./images/icon-arrow.svg" class="" alt="">
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                How can I request a new browser?
+              </a>
+              <img src="./images/icon-arrow.svg" alt="">
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                  Is there a mobile app?
+                </a>
+                <img src="./images/icon-arrow.svg" alt="">
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                  What about other chromium browsers?
+                </a>
+                <img src="./images/icon-arrow.svg" alt="">
+              </div>
+              <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn mt-2" id="accordion-more-info">More Info</button>
+        </div>
+
+
+        <!-- stay up to date with what we are doing---------------------------------------- -->
+        <div style="background-color: hsl(231, 69%, 60%)">
+          <div class="col-md-5 col-centered p-5" id="enter-email">
+            <p>35,000+ already joind</p>
+            <h2>Stay up-tp-date with what <br /> we are doing</h2>
+
+            <form action="/action_page.php" id="email-input-container">
+              <div class="form-group">
+                <input type="email" class="form-control" oninvalid="this.setCustomValidity('whoops, make sure itis an Email')" id="email" placeholder="Enter email" name="email">
+                <button type="submit" class="btn" id="btn-submit">Contact Us</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="footer d-flexd row p-5  col-centered text-center text-md-left col-md-12 m-0">
+          <img src="./images/logo-bookmark.svg" alt="" class="col-md-2 col-centered">   
+          <div class="pl-5 mt-3 col-md-2">Features</div>
+          <div class="pl-5 mt-3 col-md-2">Pricing</div>
+          <div class="pl-5 mt-3 mr-auto col-md-2">Contact</div>
+          <div class="col-md-2 mt-3">
+            <img src="./images/icon-facebook.svg"  class="mr-3" style="" alt="">
+            <img src="./images/icon-twitter.svg" class=""   alt="">
+          </div>
+
+        </div>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    
+
+    
+  </body>
+</html>
+
+
