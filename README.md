@@ -15,6 +15,6 @@ To run:
   
   
   Also LIVE version is available on:
-  [https://inspiring-swanson-1ef00c.netlify.app/]  (VPN might be require)
+  [https://psd-3-bookmark-landing-page-bootstrap4.vercel.app/]  (VPN might be require)
   
 
